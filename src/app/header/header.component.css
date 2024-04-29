@@ -1,0 +1,16 @@
+.header_content{
+    background: linear-gradient(to right, #1f082c, #17042a);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    & img{
+        width: 60px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+

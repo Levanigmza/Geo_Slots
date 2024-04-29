@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url(https://cdn.jsdelivr.net/fontsource/fonts/firago@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/firago@latest/latin-400-normal.woff) format('woff');
+}
+
+main {
+    min-height: max-content;
+    background-color: #290849;
+    padding: 30px;
+
+    & .userData {
+        background-color: #260744;
+        width: 200px;
+        padding: 5px;
+        border: 2px solid #10f122;
+        border-radius: 10px;
+        color: #10f122;
+
+        & p {
+            font-size: 16px;
+            font-weight: 600;
+            font-family: FiraGo, sans-serif;
+            line-height: 10px;
+        }
+    }
+}
+
+
+

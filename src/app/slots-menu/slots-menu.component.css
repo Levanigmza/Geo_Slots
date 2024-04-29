@@ -1,0 +1,40 @@
+.category-grid {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+
+    & .row {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+
+        & .card {
+            width: 260px;
+            height: 180px;
+            overflow: hidden;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+
+        }
+    }
+}
+
+.card img {
+    width: 220px;
+    border-radius: 10px;
+    border: 1.5px solid lightblue;
+}
+
+.card img:hover {
+    width: 220px;
+    height: 130px;
+    object-fit: cover;
+    transition: 1s ease-out;
+    box-shadow: rgba(170, 202, 7, 0.919) 0px 4px 16px, rgba(170, 202, 7, 0.919) 0px 8px 32px;
+}

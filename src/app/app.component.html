@@ -1,0 +1,18 @@
+<header>
+  <app-header></app-header>
+</header>
+
+<main>
+
+
+  <div class="userData">
+    <p>Balance : ${{Balance}}</p>
+  </div>
+
+  <!-- <app-slots-menu *ngIf='ShowSlotsmenu' (cardClicked)="redirectToSlot()"></app-slots-menu> -->
+  <router-outlet></router-outlet>
+</main>
+
+<footer>
+  <app-footer></app-footer>
+</footer>
